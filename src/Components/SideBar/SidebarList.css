@@ -1,0 +1,32 @@
+.profile_pic_nav img{
+    width: 150px;
+    height: 180px;
+    border-radius: 90px;
+    margin-top: 0px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    object-fit: cover;
+    border: 3px solid blueviolet;
+    box-shadow: -10px 0px 30px rgba(128, 1, 248, 0.5);
+
+}
+.navbar_items ul li{
+    color: white;
+    list-style-type: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.navbar_items ul li svg{
+ margin-left: 15px;
+ margin-right: 10px;
+}
+.navbar_only_icons ul li {
+    color: white;
+    list-style-type: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.navbar_only_icons ul li svg{
+    margin-left: 10px;
+}

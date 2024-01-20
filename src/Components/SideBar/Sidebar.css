@@ -1,0 +1,30 @@
+.sidebar_section{
+    display: flex;
+    /* background: #030303da; */
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.sidebar{
+    height: 100vh;
+    width: 95px;
+    background: #030303da;
+    position: fixed;
+}
+.icon_for_sidebar_expand{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+}
+.icon_for_sidebar_expand p svg{
+   color: white;
+   background-color: #19092c;
+   padding: 5px;
+   border-radius: 10px;
+   margin-top: 50px;
+
+}
+.sidebar-expand{
+    width: 240px;
+  
+}

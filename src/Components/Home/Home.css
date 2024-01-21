@@ -1,0 +1,13 @@
+.home{
+
+    height: 400px;
+    color: whitesmoke;
+}
+.home_content h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 400px;
+    margin: auto;
+    padding: 10px;
+}

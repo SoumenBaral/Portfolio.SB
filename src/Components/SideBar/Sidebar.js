@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import  './Sidebar.css'
 import { BsChevronLeft,BsChevronRight } from "react-icons/bs";
 import SidebarList from './SidebarList';
+import Home from "../Home/Home"
 const Sidebar = () => {
     const [expand,setExpand]=useState(true)
     console.log(expand);
@@ -20,8 +21,8 @@ const Sidebar = () => {
                 <SidebarList expand={expand}/>
 
             </div>
-            <div className="container">
-                <p>Home Section</p>
+            <div className="container-fluid">
+               <Home></Home>
             </div>
         </div>
     );

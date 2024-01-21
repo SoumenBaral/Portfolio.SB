@@ -12,7 +12,7 @@ import {
 
 } from "react-icons/fc";
 import {MdBiotech,MdCastForEducation } from "react-icons/md";
-import {FiSlack } from "react-icons/fi";
+
 
 
 const SidebarList = ({expand}) => {

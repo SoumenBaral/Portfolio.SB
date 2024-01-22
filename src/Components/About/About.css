@@ -1,0 +1,34 @@
+.about-section{
+    box-shadow: 10px 10px 10px skyblue;
+    box-shadow: 10px -10px 10px skyblue;
+    padding: 10px;
+    margin-top: 30px;
+}
+.about-img img{
+height: 300px;
+width: 300px;
+border-radius: 150px;
+margin-top: 30px;
+border: 4px solid rgb(204, 232, 200);
+box-shadow: -20px 20px 10px rgb(147, 147, 224);
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-details{
+    margin-top: 50px;
+}
+.about-title h5{
+    text-align: center;
+}
+.line{
+    display: block;
+    width: 75px;
+    background: linear-gradient(to right, #ef4902, #96e1a1);
+    transition: background 0.5s ease;
+    height: 3px;
+    text-align: center;
+    margin: 1px auto;
+}

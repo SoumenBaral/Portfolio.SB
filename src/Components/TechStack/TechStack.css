@@ -1,0 +1,45 @@
+.section-title h5{
+    text-align: center;
+}
+.tech-stack-section{
+    margin-top: 50px;
+    box-shadow: -10px 1px 700px skyblue;
+    padding: 40px;
+    height: auto;
+}
+.techContent{
+    margin: 10px;
+    box-shadow: 5px 5px 5px skyblue;
+    padding: 20px;
+    cursor: pointer;
+}
+.techContent:hover{
+    margin: 10px;
+    /* background-color: rgb(79, 181, 224); */
+    background-color: rgba(17, 146, 116, 0.2);
+    box-shadow: -5px -5px 5px skyblue;
+    transition-duration: 1s;
+    padding: 30px;
+    cursor: pointer;
+}
+.techContent p{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.TechNumber{
+
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 90px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: bolder;
+    line-height: 50px;
+    margin-top: -50px;
+}

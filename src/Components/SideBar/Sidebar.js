@@ -4,7 +4,7 @@ import { BsChevronLeft,BsChevronRight } from "react-icons/bs";
 import SidebarList from './SidebarList';
 import Home from "../Home/Home"
 const Sidebar = () => {
-    const [expand,setExpand]=useState(true)
+    const [expand,setExpand]=useState(false)
     console.log(expand);
     return (
         <div className='container-fluid sidebar_section'>

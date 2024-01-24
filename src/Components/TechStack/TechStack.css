@@ -8,24 +8,26 @@
     height: auto;
 }
 .techContent{
-    margin: 10px;
+    margin: 15px;
     box-shadow: 5px 5px 5px skyblue;
     padding: 20px;
     cursor: pointer;
+    border-radius: 40px 10px;
 }
 .techContent:hover{
     margin: 10px;
-    /* background-color: rgb(79, 181, 224); */
     background-color: rgba(17, 146, 116, 0.2);
     box-shadow: -5px -5px 5px skyblue;
     transition-duration: 1s;
     padding: 30px;
     cursor: pointer;
+    color: purple;
 }
 .techContent p{
     text-align: center;
     font-weight: 700;
     margin-top: 20px;
+   
 }
 
 .TechNumber{
@@ -41,5 +43,31 @@
     margin: 0 auto;
     font-weight: bolder;
     line-height: 50px;
-    margin-top: -50px;
+    margin-top: -40px;
 }
+.loadMore{
+    background-color: rgb(187, 11, 218);
+    width: 150px;
+    padding: 10px;
+    color: white;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    border-radius: 10px 50px;
+}
+.techContentOne{
+  background-color: aquamarine;
+}
+.loadMore:hover{
+    background-color:rgb(63, 1, 74) ;
+    
+    padding-right: 25px;
+    transition-duration: 1s;
+}
+

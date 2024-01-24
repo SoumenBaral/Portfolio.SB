@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './TechStack.css'
 import '../About/About.css'
 
 const TechStack = () => {
+    const [loadMore,setLoadMore] = useState(9);
+    const handleLoad = () =>{
+        setLoadMore(num=>num+3);
+    }
     const Data = [
         {
             name:"Full Stack Developer"
@@ -76,9 +80,9 @@ const TechStack = () => {
             <div className="row">
                 
                     {
-                        Data.map((item,index) => (
+                        Data.slice(0,loadMore).map((item,index) => (
                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12' key={index}>
-                           <div className="techContent">
+                           <div  className={index===0?"techContentOne techContent":"techContent"}>
                             <span  style={{backgroundColor:colorCode[index]}} className='TechNumber' >
                                 {index+1}
                             </span>
@@ -88,9 +92,11 @@ const TechStack = () => {
                         ))
                     }
             </div>
-            <span className='loadMore'>
+            {loadMore>=Data.length?null:(
+                <span onClick={handleLoad} className='loadMore'>
                 load More
             </span>
+            )}
         </div>
 
     );

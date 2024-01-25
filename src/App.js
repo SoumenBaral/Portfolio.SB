@@ -1,4 +1,5 @@
 import About from "./Components/About/About";
+import Projects from "./Components/Projects/Projects";
 import Sidebar from "./Components/SideBar/Sidebar";
 import TechStack from "./Components/TechStack/TechStack";
 
@@ -8,6 +9,7 @@ function App() {
       <Sidebar/>
       <About/>
       <TechStack/>
+      <Projects/>
     </div>
   );
 }

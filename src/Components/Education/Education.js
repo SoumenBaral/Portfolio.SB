@@ -42,9 +42,9 @@ const Education = () => {
     const colors = [
         "rgba(400, 25, 100, 0.5)",
         // "rgba(255, 0, 0, 0.4)",
-        " rgba(0, 0, 255, 0.5)",
+        "rgba(128, 0, 128, 0.5)",
         "rgba(255, 0, 0, 0.7)",
-        "rgba(128, 0, 128, 0.5)"
+        " rgba(0, 0, 255, 0.5)",
     ]
     return (
         <div className='container '>

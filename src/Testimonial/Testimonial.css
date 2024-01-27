@@ -1,0 +1,41 @@
+.containSlider{
+    padding: 20px;
+    background-color: rgba(128, 0, 128, 0.5);
+    color: white;
+    text-align: center;
+    margin: 50px 10px 30px 10px;
+    cursor: pointer;
+    height: 250px;
+    border-radius: 20px 80px;
+    box-shadow: 4px 4px 5px  rgba(72, 5, 242, 0.5);
+    
+}
+.containSlider:hover{
+    background-color:   rgba(0, 0, 255, 0.5);
+    transition-duration: 3s;
+    box-shadow: 4px 4px 5px gray;
+}
+.testimonialImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -35px;
+    border: 3px solid rgba(233, 250, 0, 0.5) ;
+    box-shadow: -4px 4px 4px rgb(94, 62, 113);
+
+}
+.testimonialImg:hover{
+    width: 90px;
+    height: 90px;
+    transition-duration: 1s;
+}
+.slick-prev::before{
+    color: rgb(253, 0, 0) !important;
+    size: 30px;
+}
+.slick-next::before{
+    color: rgb(247, 10, 57) !important;
+    size: 30px;
+}

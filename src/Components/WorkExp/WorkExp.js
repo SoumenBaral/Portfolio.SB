@@ -126,22 +126,23 @@ const WorkExp = () => {
                         dateClassName={ 'date' }
                         iconStyle={{ background: colors[index], color: '#fff' ,boxShadow:"4px 3px 5px gray" ,fontSize:'40px'}}
                         icon={item?.icon}
+                       
                     >
                         <h3 className="vertical-timeline-element-title">{item.companyName}</h3>
                         <h4 className="vertical-timeline-element-subtitle">{item.position}</h4>
-            <div className="row">
-                {
-                    item.techSkills&&item.techSkills.map((tech,index)=>(
-                        <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
-                           <div className='techUsed'>
-                           <p>{tech.name}</p>
-                           </div>
+                        <div className="row" key={index}>
+                            {
+                                item.techSkills&&item.techSkills.map((tech,index)=>(
+                                    <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
+                                    <div className='techUsed'>
+                                    <p>{tech.name}</p>
+                                    </div>
+                                    
+                                    </div>
+                                ))
+                            }
                         
                         </div>
-                    ))
-                }
-               
-            </div>
                         <p>
                         {item.description}
                         </p>

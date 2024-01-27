@@ -1,4 +1,5 @@
 import About from "./Components/About/About";
+import Education from "./Components/Education/Education";
 import Projects from "./Components/Projects/Projects";
 import Sidebar from "./Components/SideBar/Sidebar";
 import TechStack from "./Components/TechStack/TechStack";
@@ -12,6 +13,7 @@ function App() {
       <TechStack/>
       <WorkExp/>
       <Projects/>
+      <Education/>
       
     </div>
   );

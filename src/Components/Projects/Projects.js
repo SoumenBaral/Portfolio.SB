@@ -117,7 +117,7 @@ const Projects = () => {
         },
     ]
     return (
-        <div className='container'>
+        <div className='container my-5'>
              <div className='section-title container mb-5'>
                 <h5> Projects </h5>
                 <span className='line'></span>

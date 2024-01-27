@@ -34,7 +34,7 @@ const ProjectList = ({name,techUse,description,ProjectsUrl}) => {
                 }
                
             </div>
-          <div className='d-flex justify-content-start align-items-center gap-2'>
+          <div className='d-flex justify-content-start align-items-center gap-2 my-3'>
           <div className='liveDemo  m-0'>
             <a className='text-decoration-none text-white' href={ProjectsUrl} target='_blank'  rel="noreferrer" >live <SiKdenlive className='text-danger iconLive'/></a>
              </div>

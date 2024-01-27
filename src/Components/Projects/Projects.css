@@ -25,10 +25,12 @@
     font-size: 14px;
     
     text-align: center;
+    box-shadow: 2px 2px 4px gray;
     
 }
 .techUsed:hover{
-    background-color: aquamarine;
+    background-color: rgb(0, 254, 170,0.3);
+    box-shadow: 3px 3px 4px gray;
     color: black;
 }
 .techUsed p{
@@ -47,12 +49,14 @@
     margin-bottom: 40px;
     cursor: pointer;
     border-radius:50px ;
+    box-shadow: 2px 2px 4px gray;
 }
 .liveDemo:hover{
     background-color:rgb(100, 4, 117) ;
     
     padding-right: 25px;
     transition-duration: 1s;
+    box-shadow: 3px 3px 4px gray;
 }
 .iconLive{
     margin-top: -10px;
@@ -61,9 +65,12 @@
     background-color: black;
     padding: 10px;
     border-radius: 50%;
+    box-shadow: 2px 2px 4px gray;
 }
 
 .github:hover{
     background-color: rgb(51, 2, 72);
+    padding: 12px;
+    box-shadow: 3px 3px 4px gray;
     
 }

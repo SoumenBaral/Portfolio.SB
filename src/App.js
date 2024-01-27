@@ -10,8 +10,9 @@ function App() {
       <Sidebar/>
       <About/>
       <TechStack/>
-      <Projects/>
       <WorkExp/>
+      <Projects/>
+      
     </div>
   );
 }

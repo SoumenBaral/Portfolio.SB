@@ -2,6 +2,7 @@ import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Sidebar from "./Components/SideBar/Sidebar";
 import TechStack from "./Components/TechStack/TechStack";
+import WorkExp from "./Components/WorkExp/WorkExp";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <About/>
       <TechStack/>
       <Projects/>
+      <WorkExp/>
     </div>
   );
 }

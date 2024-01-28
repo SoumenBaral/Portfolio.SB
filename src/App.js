@@ -1,4 +1,5 @@
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 import Education from "./Components/Education/Education";
 import Projects from "./Components/Projects/Projects";
 import Sidebar from "./Components/SideBar/Sidebar";
@@ -18,6 +19,7 @@ function App() {
       <Projects/>
       <Education/>
       <Testimonial/>
+      <Contact/>
       
     </div>
   );

@@ -110,7 +110,7 @@ const WorkExp = () => {
         "rgba(128, 0, 128, 0.5)"
     ]
     return (
-        <div className='container '>
+        <div className='container ' id='work'>
              <div className='section-title container my-5'>
                 <h5>Work Experience</h5>
                 <span className='line'></span>

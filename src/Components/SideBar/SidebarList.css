@@ -32,3 +32,9 @@
 .navbar_only_icons ul li svg{
     margin-left: 10px;
 }
+.nav_item .active{
+    border-left: 3px solid rgb(205, 50, 130);
+    color: orange;
+    text-decoration: none;
+    transition-duration: .5s;
+}

@@ -4,7 +4,7 @@ import { BsSendCheckFill } from "react-icons/bs";
 
 const Contact = () => {
     return (
-        <div className='container contact-section'>
+        <div className='container contact-section' id='contact'>
             <div className="row">
                 <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5">
                     <div className="contact-img">

@@ -47,7 +47,7 @@ const Education = () => {
         " rgba(0, 0, 255, 0.5)",
     ]
     return (
-        <div className='container '>
+        <div className='container ' id='education'>
              <div className='section-title container my-5'>
                 <h5>Education</h5>
                 <span className='line'></span>

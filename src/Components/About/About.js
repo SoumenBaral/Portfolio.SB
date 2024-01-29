@@ -3,7 +3,7 @@ import profileImg from '../../assets/image/meToo.jpg'
 import './About.css'
 const About = () => {
     return (
-        <div className='container about-section mb-5'>
+        <div className='container about-section mb-5' id='about'>
             <div className='row'>
                 <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div className="about-img">

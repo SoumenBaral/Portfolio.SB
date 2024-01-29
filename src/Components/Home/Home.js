@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import cv from './CV.pdf'
 const Home = () => {
   return (
-    <div className='container-fluid home'>
+    <div className='container-fluid home' id='home'>
       <div className='container home_content'>
           <h3 >Hi I'm a </h3>
           <h4>

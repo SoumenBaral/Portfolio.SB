@@ -72,7 +72,7 @@ const TechStack = () => {
         "#808080"  // Gray
     ]
     return (
-        <div className='container tech-stack-section'>
+        <div className='container tech-stack-section' id='tech'>
             <div className='section-title container mb-5'>
                 <h5>Tech Stack</h5>
                 <span className='line'></span>

@@ -65,7 +65,7 @@ const SidebarList = ({expand}) => {
                         duration={100}
                         offset={-100}
                         >
-                        <FcFactory size={25}/> Work Experience
+                        <FcFactory size={25}/>Work Exp
                         </Link>
                     </li>
                     <li className='nav_item'>

@@ -7,12 +7,15 @@ import TechStack from "./Components/TechStack/TechStack";
 import WorkExp from "./Components/WorkExp/WorkExp";
 import Testimonial from "./Testimonial/Testimonial";
 import ScrollToTop from "react-scroll-to-top";
+
 import './App.css'
+import NavMobile from "./Components/NavMobile/NavMobile";
 
 function App() {
   return (
     <div className="App">
       <Sidebar/>
+      <NavMobile/>
       <About/>
       <TechStack/>
       <WorkExp/>

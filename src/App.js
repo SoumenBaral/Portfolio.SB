@@ -6,8 +6,8 @@ import Sidebar from "./Components/SideBar/Sidebar";
 import TechStack from "./Components/TechStack/TechStack";
 import WorkExp from "./Components/WorkExp/WorkExp";
 import Testimonial from "./Testimonial/Testimonial";
-
-
+import ScrollToTop from "react-scroll-to-top";
+import './App.css'
 
 function App() {
   return (
@@ -20,6 +20,12 @@ function App() {
       <Education/>
       <Testimonial/>
       <Contact/>
+      <ScrollToTop
+      smooth='true'
+      width="20px"
+      height="20px"
+      color="white"
+      style={{borderRadius:"90px", backgroundColor:" rgba(0, 0, 255, 0.5)",fontSize:'10px '}}/>
       
     </div>
   );

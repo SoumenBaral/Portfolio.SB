@@ -14,8 +14,9 @@ import NavMobile from "./Components/NavMobile/NavMobile";
 function App() {
   return (
     <div className="App">
-      <Sidebar/>
       <NavMobile/>
+      <Sidebar/>
+      
       <About/>
       <TechStack/>
       <WorkExp/>

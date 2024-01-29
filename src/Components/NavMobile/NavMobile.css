@@ -1,0 +1,44 @@
+.navMobile{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+.navbarHeader{
+    width: 100%;
+    background-color: rgba(37, 12, 37, 0.7);
+    color: white;
+    padding: 5px;
+    
+
+}
+.navbarHeader svg{
+ margin-left: 20px;
+ cursor: pointer;
+}
+.mobileNav{
+    height: auto;
+    width: 200px;
+    background-color: rgba(37, 12, 37, 0.7);
+    margin-top: -1px;
+    border-radius: 0px 50px;
+    padding: 10px;
+}
+.mobileNav ul li{
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+.nav_item_mobile .active{
+    text-decoration: none;
+    border-left: 3px solid sandybrown;
+}
+@media (min-width:800px) {
+    .navMobile{
+        display: none;
+
+    }
+}

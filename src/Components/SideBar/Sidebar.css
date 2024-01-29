@@ -28,3 +28,9 @@
     width: 178px;
   
 }
+
+@media (max-width:800px) {
+    .sidebar{
+        display: none;
+    }
+}

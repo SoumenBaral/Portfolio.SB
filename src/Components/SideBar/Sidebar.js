@@ -3,7 +3,7 @@ import  './Sidebar.css'
 import { BsChevronLeft,BsChevronRight } from "react-icons/bs";
 import SidebarList from './SidebarList';
 import Home from "../Home/Home"
-const Sidebar = () => {
+const Sidebar = ({theme,handleTheme}) => {
     const [expand,setExpand]=useState(false)
     console.log(expand);
     return (
@@ -22,7 +22,7 @@ const Sidebar = () => {
 
             </div>
             <div className="container-fluid">
-               <Home></Home>
+               <Home theme={theme} handleTheme={handleTheme}></Home>
             </div>
         </div>
     );

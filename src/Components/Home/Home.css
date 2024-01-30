@@ -59,3 +59,42 @@
     text-decoration: none;
     color: black;
 }
+.themeChange{
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    right: 0;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    position: fixed;
+    top: 150px;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+.sunTheme{
+    animation: rotationSun infinite  5s linear ;
+}
+@keyframes rotationSun {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.moonTheme{
+    animation: rotationMoon backwards  5s linear ;
+}
+
+@keyframes rotationMoon {
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

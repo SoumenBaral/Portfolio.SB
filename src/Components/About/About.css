@@ -1,5 +1,5 @@
 .about-section{
-    box-shadow: 10px 10px 10px skyblue;
+  
     box-shadow: 10px -10px 10px skyblue;
     padding: 40px;
     margin-top: 30px;
@@ -11,6 +11,12 @@ border-radius: 150px;
 margin-top: 30px;
 border: 4px solid rgb(204, 232, 200);
 box-shadow: -20px 20px 10px rgb(147, 147, 224);
+}
+#dark .about-img img{
+    box-shadow: 5px 5px 5px gray;
+}
+#dark .about-section{
+    box-shadow: 5px -5px 5px skyblue;
 }
 .about-img{
     display: flex;

@@ -2,9 +2,18 @@ import React from 'react'
 import './Home.css'
 import Typewriter from 'typewriter-effect';
 import cv from './CV.pdf'
-const Home = () => {
+import { GiSun } from "react-icons/gi";
+import { BsMoonStarsFill } from "react-icons/bs";
+
+
+const Home = ({theme,handleTheme}) => {
   return (
     <div className='container-fluid home' id='home'>
+       <div className="themeChange" onClick={handleTheme}>
+        {
+          theme==="light"?<GiSun size={40} className='sunTheme' />:<BsMoonStarsFill  size={30} className='moonTheme'/>
+        }
+       </div>
       <div className='container home_content'>
           <h3 >Hi I'm a </h3>
           <h4>

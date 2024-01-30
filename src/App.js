@@ -10,12 +10,20 @@ import ScrollToTop from "react-scroll-to-top";
 
 import './App.css'
 import NavMobile from "./Components/NavMobile/NavMobile";
+import { createContext, useState } from "react";
+
+export const themeContext = createContext(null)
 
 function App() {
+  const [theme,setTheme] = useState('light')
+  const handleTheme =()=>{
+    setTheme(prev=>(prev==="light"?"dark":"light"))
+  }
   return (
-    <div className="App">
-      <NavMobile/>
-      <Sidebar/>
+    <themeContext.Provider value={{theme,handleTheme}}>
+     <div id={theme}>
+     <NavMobile/>
+      <Sidebar theme={theme} handleTheme={handleTheme}/>
       
       <About/>
       <TechStack/>
@@ -24,6 +32,7 @@ function App() {
       <Education/>
       <Testimonial/>
       <Contact/>
+     </div>
       <ScrollToTop
       smooth='true'
       width="20px"
@@ -31,7 +40,7 @@ function App() {
       color="white"
       style={{borderRadius:"90px", backgroundColor:" rgba(0, 0, 255, 0.5)",fontSize:'10px '}}/>
       
-    </div>
+    </themeContext.Provider>
   );
 }
 

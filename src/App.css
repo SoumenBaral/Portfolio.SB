@@ -13,3 +13,7 @@
   background-color: rgba(128, 0, 128, 0.5);
   transition-duration: 1s;
 }
+#dark{
+  background-color: rgb(72, 50, 72);
+  color: white;
+}

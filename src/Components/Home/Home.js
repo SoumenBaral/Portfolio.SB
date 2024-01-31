@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import cv from './CV.pdf'
 import { GiSun } from "react-icons/gi";
 import { BsMoonStarsFill } from "react-icons/bs";
-
+import Fade from 'react-reveal/Fade';
 
 const Home = ({theme,handleTheme}) => {
   return (
@@ -14,8 +14,10 @@ const Home = ({theme,handleTheme}) => {
           theme==="light"?<GiSun size={40} className='sunTheme' />:<BsMoonStarsFill  size={30} className='moonTheme'/>
         }
        </div>
+
+      <Fade right>
       <div className='container home_content'>
-          <h3 >Hi I'm a </h3>
+          <h3 >Hi I'm Soumen Baral </h3>
           <h4>
           <Typewriter
               options={{
@@ -33,6 +35,9 @@ const Home = ({theme,handleTheme}) => {
             />
           </h4>
       </div>
+      </Fade>
+
+    <Fade bottom>
       <div className="btn-container">
         <div className="hire-me-btn">
           Hire Me
@@ -41,6 +46,7 @@ const Home = ({theme,handleTheme}) => {
           <a  href={cv} download='Shumen.pdf'>Get Resume</a>
         </div>
       </div>
+      </Fade>
     </div>
   )
 }

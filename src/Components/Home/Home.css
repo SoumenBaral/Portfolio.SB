@@ -27,7 +27,7 @@
     padding: 10px;
     font-size: 17px;
     margin-top: 10px;
-    box-shadow: 1px 1px 10px rgb(120, 28, 207);
+    box-shadow: 2px 2px 4px rgb(64, 19, 106);
 }
 .hire-me-btn:hover{
     background-color: beige;
@@ -44,7 +44,7 @@
     border: 2px solid goldenrod;
     cursor: pointer;
     padding: 10px;
-    box-shadow: 1px 1px 10px rgb(120, 28, 207);
+    box-shadow: 2px 2px 4px rgb(64, 19, 106);
     font-size: 17px;
     margin-left: 10px;
     margin-top: 10px;

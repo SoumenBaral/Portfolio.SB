@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './TechStack.css'
 import '../About/About.css'
-
+import Fade from 'react-reveal/Fade';
+import { Zoom } from 'react-reveal';
 const TechStack = () => {
     const [loadMore,setLoadMore] = useState(9);
     const handleLoad = () =>{
@@ -71,6 +72,7 @@ const TechStack = () => {
         "#40E0D0", // Turquoise
         "#808080"  // Gray
     ]
+
     return (
         <div className='container tech-stack-section' id='tech'>
             <div className='section-title container mb-5'>
@@ -81,21 +83,25 @@ const TechStack = () => {
                 
                     {
                         Data.slice(0,loadMore).map((item,index) => (
-                            <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12' key={index}>
-                           <div  className={index===0?"techContentOne techContent":"techContent"}>
-                            <span  style={{backgroundColor:colorCode[index]}} className='TechNumber' >
-                                {index+1}
-                            </span>
-                            <p>{item.name}</p>
-                           </div>
-                            </div>
+                            <Fade right>
+                                <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12' key={index}>
+                                    <div  className={index===0?"techContentOne techContent":"techContent"}>
+                                        <span  style={{backgroundColor:colorCode[index]}} className='TechNumber' >
+                                            {index+1}
+                                        </span>
+                                        <p>{item.name}</p>
+                                    </div>
+                                </div>
+                            </Fade>
                         ))
                     }
             </div>
             {loadMore>=Data.length?null:(
+            <Zoom>
                 <span onClick={handleLoad} className='loadMore'>
-                load More
-            </span>
+                    load More
+                </span>
+            </Zoom>
             )}
         </div>
 

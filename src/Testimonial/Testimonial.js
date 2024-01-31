@@ -3,6 +3,7 @@ import "./Testimonial.css"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Zoom } from 'react-reveal';
 const Testimonial = () => {
     var settings = {
         dots: true,
@@ -86,6 +87,7 @@ const Testimonial = () => {
             <div className="testimonial_slider">
                 <Slider {...settings}>
                     {data.map((item,index)=>(
+                      <Zoom left>
                        <div className="contentSliderMain">
                              <div className='containSlider' key={index} >
                             <img src={item.img} alt="testimonialImg" className='testimonialImg'/>
@@ -94,6 +96,7 @@ const Testimonial = () => {
                             <p>{item.position}</p>
                         </div>
                        </div>
+                       </Zoom>
                     ))}
                 </Slider>
             </div>

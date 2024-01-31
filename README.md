@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Package That i user
+
+for Animation :(React Reveal)
+
+bash```
+ npm install react-reveal --save
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:

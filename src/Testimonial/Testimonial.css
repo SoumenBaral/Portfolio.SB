@@ -10,6 +10,11 @@
     box-shadow: 4px 4px 5px  rgba(72, 5, 242, 0.5);
     
 }
+#dark .containSlider{
+    box-shadow: -12px -9px 22px -7px rgba(0,0,0,0.46);
+    -webkit-box-shadow: -12px 9px 22px -7px rgba(0,0,0,0.46);
+    -moz-box-shadow: -12px 9px 22px -7px rgba(0,0,0,0.46);
+}
 .containSlider:hover{
     background-color:   rgba(0, 0, 255, 0.5);
     transition-duration: 3s;
@@ -23,13 +28,23 @@
     margin: 0 auto;
     margin-top: -35px;
     border: 3px solid rgba(233, 250, 0, 0.5) ;
-    box-shadow: -4px 4px 4px rgb(94, 62, 113);
+    box-shadow: -12px -9px 22px -7px rgba(0,0,0,0.46);
+    -webkit-box-shadow: -12px 9px 22px -7px rgba(0,0,0,0.46);
+    -moz-box-shadow: -12px 9px 22px -7px rgba(0,0,0,0.46);
 
 }
 .testimonialImg:hover{
     width: 90px;
     height: 90px;
     transition-duration: 1s;
+}
+#dark .slick-prev::before{
+    color: rgb(250, 239, 239) !important;
+    size: 30px;
+}
+#dark .slick-next::before{
+    color: rgb(250, 250, 250) !important;
+    size: 30px;
 }
 .slick-prev::before{
     color: rgb(253, 0, 0) !important;

@@ -27,7 +27,7 @@ function App() {
       
       <About/>
       <TechStack/>
-      <WorkExp/>
+      <WorkExp  theme={theme}/>
       <Projects/>
       <Education/>
       <Testimonial/>

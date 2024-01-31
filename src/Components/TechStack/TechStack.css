@@ -3,16 +3,26 @@
 }
 .tech-stack-section{
     margin-top: 50px;
-    box-shadow: -10px 1px 700px skyblue;
+ 
     padding: 40px;
     height: auto;
 }
 .techContent{
     margin: 15px;
-    box-shadow: 5px 5px 5px skyblue;
+    box-shadow: 5px 4px 5px skyblue;
     padding: 20px;
     cursor: pointer;
     border-radius: 40px 10px;
+}
+#dark .techContent{
+    background-color: #38004c;
+    box-shadow: -12px 9px 22px -7px rgba(0,0,0,0.46);
+    -webkit-box-shadow: -12px 9px 22px -7px rgba(0,0,0,0.46);
+    -moz-box-shadow: -12px 9px 22px -7px rgba(0,0,0,0.46);
+}
+#dark .techContent:hover{
+    color: gold;
+    background-color: rgb(11, 11, 11);
 }
 .techContent:hover{
     margin: 10px;

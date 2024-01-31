@@ -14,7 +14,7 @@ const ProjectList = ({name,techUse,description,ProjectsUrl}) => {
        >
 
             <div className='titleCollapse'>
-                <h5>{name}</h5>
+                <h5 className='ms-4'>{name}</h5>
                 {click?<p><FcExpand/></p>:<p><FcCollapse/></p>}
             </div>
            <div className='m-4'>

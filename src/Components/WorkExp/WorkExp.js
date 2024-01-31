@@ -120,11 +120,11 @@ const WorkExp = () => {
                     
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: colors[index], color: '#fff', boxShadow:"-4px 3px 5px gray", borderRadius: "20px"}}
+                        contentStyle={{ background: colors[index], color: '#fff', boxShadow:"-12px 9px 22px -7px rgba(0,0,0,0.46);", borderRadius: "20px"}}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date={item.date}
                         dateClassName={ 'date' }
-                        iconStyle={{ background: colors[index], color: '#fff' ,boxShadow:"4px 3px 5px gray" ,fontSize:'40px'}}
+                        iconStyle={{ background: colors[index], color: '#fff' ,boxShadow:"-12px 9px 22px -7px rgba(10,0,0,0.46);" ,fontSize:'40px'}}
                         icon={item?.icon}
                        
                     >

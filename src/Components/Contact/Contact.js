@@ -13,7 +13,7 @@ const Contact = () => {
                 </div>
                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-7 ">
                     <div className="contact-form-design">
-                        <h5 className='text-center'>Contact Me </h5>
+                        <h5 className='text-center mt-4'>Contact Me </h5>
                         <form action="">
                             <div className="contact-form">
                                 <label  className='form-label' htmlFor="">Name</label>

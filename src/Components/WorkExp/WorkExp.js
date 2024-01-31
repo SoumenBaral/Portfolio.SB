@@ -7,7 +7,7 @@ import { TfiYoutube } from "react-icons/tfi";
 import { CgMail } from "react-icons/cg";
 import './WorkExp.css'
 
-const WorkExp = () => {
+const WorkExp = ({theme}) => {
     const data = [
         {
             companyName:'Google',
@@ -115,7 +115,7 @@ const WorkExp = () => {
                 <h5>Work Experience</h5>
                 <span className='line'></span>
             </div>
-            <VerticalTimeline lineColor={ "rgba(128, 0, 128, 0.5)" }>
+            <VerticalTimeline lineColor={ theme==="light"? "rgba(128, 0, 128, 0.5)": "rgba(255, 0, 0, 0.5)"  }>
                 {data.map((item,index)=>(
                     
                     <VerticalTimelineElement

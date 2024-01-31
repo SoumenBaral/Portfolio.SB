@@ -7,7 +7,7 @@ border-radius: 30px;
 
 }
 #dark .contact-section{
-    background-color: rgba(128, 0, 128, .5);
+    background-color: #38004c;
     box-shadow: 10px 9px 22px -7px rgba(0,0,0,0.46);
     -webkit-box-shadow: 10px 9px 22px -7px rgba(0,0,0,0.46);
     -moz-box-shadow: 10px 9px 22px -7px rgba(0,0,0,0.46);

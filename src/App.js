@@ -29,7 +29,7 @@ function App() {
       <TechStack/>
       <WorkExp  theme={theme}/>
       <Projects/>
-      <Education/>
+      <Education theme={theme} />
       <Testimonial/>
       <Contact/>
      </div>

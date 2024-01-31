@@ -3,7 +3,7 @@ import './Education.css'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaUserGraduate } from "react-icons/fa6";
-const Education = () => {
+const Education = ({theme}) => {
     const data = [
         {
             name:'Sonargaon University',
@@ -52,7 +52,7 @@ const Education = () => {
                 <h5>Education</h5>
                 <span className='line'></span>
             </div>
-            <VerticalTimeline lineColor={ "rgba(128, 0, 128, 0.5)" }>
+            <VerticalTimeline lineColor={theme==="light"? "rgba(128, 0, 128, 0.5)": "rgba(255, 0, 0, 0.5)"  }>
                 {data.map((item,index)=>(
                     
                     <VerticalTimelineElement

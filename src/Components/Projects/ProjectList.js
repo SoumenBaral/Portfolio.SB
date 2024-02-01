@@ -7,6 +7,24 @@ import { SiKdenlive } from "react-icons/si";
 import Zoom from 'react-reveal/Zoom';
 const ProjectList = ({name,techUse,description,ProjectsUrl}) => {
   const[click ,setClick] = useState(true)
+  const colorCode =[
+    "#FF0000", // Red
+    "#00FF00", // Lime
+    "#0000FF", // Blue
+    // "#FFFF00", // Yellow
+    "#FF00FF", // Magenta
+    "#00FFFF", // Cyan
+    "#FFA500", // Orange
+    "#800080", // Purple
+    "#008000", // Green
+    "#800000", // Maroon
+    "#008080", // Teal
+    "#FF6347", // Tomato
+    "#4B0082", // Indigo
+    "#FFD700", // Gold
+    "#40E0D0", // Turquoise
+    "#808080"  // Gray
+]
   console.log(click);
     return (
     <Zoom>
@@ -27,7 +45,7 @@ const ProjectList = ({name,techUse,description,ProjectsUrl}) => {
                     {
                         techUse&&techUse.map((tech,index)=>(
                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
-                            <div className='techUsed'>
+                            <div className='techUsed' style={{backgroundColor:colorCode[index]}}>
                             <p>{tech.tachName}</p>
                             </div>
                             

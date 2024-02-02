@@ -5,6 +5,7 @@ import cv from './CV.pdf'
 import { GiSun } from "react-icons/gi";
 import { BsMoonStarsFill } from "react-icons/bs";
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-scroll';
 
 const Home = ({theme,handleTheme}) => {
   return (
@@ -39,9 +40,11 @@ const Home = ({theme,handleTheme}) => {
 
     <Fade bottom>
       <div className="btn-container">
+        <Link to='contact'>
         <div className="hire-me-btn">
           Hire Me
         </div>
+        </Link>
         <div className="get-resume-btn">
           <a  href={cv} download='Shumen.pdf'>Get Resume</a>
         </div>

@@ -22,7 +22,7 @@
     text-align: center;
     width: 180px;
     border-radius: 90px;
-    border: 2px solid goldenrod;
+    border: 3px solid rgb(247, 246, 242);
     cursor: pointer;
     padding: 10px;
     font-size: 17px;
@@ -34,6 +34,7 @@
     width: 250px;
     color: black;
     transition-duration: 1s;
+    border: 3px solid rgb(219, 10, 31);
 
 }
 .get-resume-btn{
@@ -41,7 +42,7 @@
     text-align: center;
     width: 180px;
     border-radius: 90px;
-    border: 2px solid goldenrod;
+    border: 3px solid rgb(253, 253, 253);
     cursor: pointer;
     padding: 10px;
     box-shadow: 2px 2px 4px rgb(64, 19, 106);
@@ -54,6 +55,7 @@
     width: 250px;
     color: black;
     transition-duration: 1s;
+    border: 3px solid rgb(219, 10, 31);
 }
 .get-resume-btn a{
     text-decoration: none;

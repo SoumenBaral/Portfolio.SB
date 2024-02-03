@@ -25,7 +25,6 @@ const ProjectList = ({name,techUse,description,ProjectsUrl}) => {
     "#40E0D0", // Turquoise
     "#808080"  // Gray
 ]
-  console.log(click);
     return (
     <Zoom>
         <div className={click?" projectList":"ProjectListClick projectList"}
@@ -38,7 +37,7 @@ const ProjectList = ({name,techUse,description,ProjectsUrl}) => {
                     {click?<p><FcExpand/></p>:<p><FcCollapse/></p>}
                 </div>
             <div className='m-4'>
-                    {click?<p>{description.substring(0,100)} <span className='text-secondary'>...Read more</span></p>:<p>{description}</p>}
+                    {click?<p>{description.substring(0,100)} <span className='text-secondary'>...Read more</span></p>:<div><img src="https://images.pexels.com/photos/7598068/pexels-photo-7598068.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" className='w-100 projectImg' /> <p> {description} </p></div> }
             </div>
                 
                 <div className="row">

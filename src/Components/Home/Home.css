@@ -1,7 +1,7 @@
 .home{
     width: 68%;
     position: relative;
-    height: 200px;
+    height: 250px;
     color: whitesmoke;
     
     
@@ -101,3 +101,24 @@
         transform: rotate(360deg);
     }
 }
+@media only screen and (max-width: 600px) {
+    .btn-container{
+        display: block;
+    }
+    .get-resume-btn{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .home_content{   
+      
+        margin-top: 20px;
+    }
+    .home{
+        width: 68%;
+        position: relative;
+        height: 300px;
+        color: whitesmoke;
+        
+        
+    }
+  }

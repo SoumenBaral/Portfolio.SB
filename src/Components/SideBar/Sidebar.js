@@ -5,7 +5,6 @@ import SidebarList from './SidebarList';
 import Home from "../Home/Home"
 const Sidebar = ({theme,handleTheme}) => {
     const [expand,setExpand]=useState(false)
-    console.log(expand);
     return (
         <div className='container-fluid sidebar_section'>
             <div className={expand?'sidebar-expand sidebar':'sidebar'}>
